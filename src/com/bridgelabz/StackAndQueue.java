@@ -11,5 +11,14 @@ public class StackAndQueue {
         function.addQueue(56);
         function.print();
 
+        //Removing element from queue
+        function.deQueue();
+        function.print();
+        function.deQueue();
+        function.print();
+        function.deQueue();
+        function.print();
+        function.deQueue();
+
     }
 }
