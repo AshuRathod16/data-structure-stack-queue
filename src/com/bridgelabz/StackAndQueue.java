@@ -5,24 +5,11 @@ public class StackAndQueue {
 
         Function function = new Function();
 
-        // Insert element in stack
-        function.addElement(70);
-        function.addElement(30);
-        function.addElement(56);
+        // Inserting element in queue
+        function.addQueue(70);
+        function.addQueue(30);
+        function.addQueue(56);
         function.print();
-
-        // Removed the element from stack until stack is empty
-        function.peek();
-        function.pop();
-        function.print();
-        function.peek();
-        function.pop();
-        function.print();
-        function.peek();
-        function.pop();
-        function.print();
-        function.peek();
-        function.pop();
 
     }
 }
